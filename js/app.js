@@ -69,6 +69,7 @@ Shop.prototype.render = function(){
   tdCookieTotal.textContent = this.cookiesTotal;
 
 };
+
 new Shop('Seattle', 23, 65, 6.3);
 new Shop('Tokyo', 3, 24, 1.2);
 new Shop('Dubai', 11, 38, 3.7);
