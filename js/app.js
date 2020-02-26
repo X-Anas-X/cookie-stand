@@ -26,7 +26,8 @@ Shop.prototype.cookies = function () {
     var calcuPerHour = Math.floor(getRandomNum(this.maxCust, this.minCust) * this.avgCoookies);
     this.cookiesArr.push(calcuPerHour);
     this.cookiesTotal += this.cookiesArr[i];
-  }};
+  }
+};
 
 
 function header() {
