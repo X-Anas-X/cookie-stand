@@ -31,11 +31,9 @@ Shop.prototype.cookies = function () {
 
 
 function header() {
-
   var trEle = document.createElement('tr');
   tableEle.appendChild(trEle);
   var thSpace = document.createElement('th');
-
   thSpace.textContent = ' ';
   trEle.appendChild(thSpace);
   for (var m = 0; m < numberOfHours.length; m++) {
@@ -64,6 +62,7 @@ Shop.prototype.render = function(){
     trEle.appendChild(tdEle);
     tdEle.textContent = this.cookiesArr[m];
   }
+
   var tdCookieTotal = document.createElement('td');
   trEle.appendChild(tdCookieTotal);
   tdCookieTotal.textContent = this.cookiesTotal;
@@ -110,15 +109,23 @@ footer();
 
 
 
-
-var locationForm = document.getElementById('storeForm');
+var locationForm = document.getElementById('Form');
 locationForm.addEventListener('submit', function (event){
   event.preventDefault();
-  var locationInput = event.target.locationInput.value;
-  var minInput = event.target.minInput.value;
-  var maxInput = event.target.maxInput.value;
-  var avgCoookiesInput = event.target.avgCoookiesInput.value;
-}
+  var locationInput = event.target.name.value;
+  var minInput = event.target.minCust.value;
+  var maxInput = event.target.maxCust.value;
+  var avgCoookiesInput = event.target.avgCoookies.value;
+  var newStore = new Shop(locationInput, minInput, maxInput, avgCoookiesInput);
+  tableEle.deleteRow(tableEle.rows.length - 1);
+
+  newStore.render();
+  footer();
+});
+
+footer();
+
+
 
 
 
