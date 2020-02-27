@@ -70,6 +70,8 @@ Shop.prototype.render = function(){
 
 };
 
+
+
 new Shop('Seattle', 23, 65, 6.3);
 new Shop('Tokyo', 3, 24, 1.2);
 new Shop('Dubai', 11, 38, 3.7);
@@ -77,6 +79,7 @@ new Shop('Paris', 20, 38, 2.3);
 new Shop('Lima', 2, 16, 4.6);
 
 function footer() {
+
   var trEle = document.createElement('tr');
   tableEle.appendChild(trEle);
   var tdEle = document.createElement('td');
@@ -108,6 +111,14 @@ footer();
 
 
 
+var locationForm = document.getElementById('storeForm');
+locationForm.addEventListener('submit', function (event){
+  event.preventDefault();
+  var locationInput = event.target.locationInput.value;
+  var minInput = event.target.minInput.value;
+  var maxInput = event.target.maxInput.value;
+  var avgCoookiesInput = event.target.avgCoookiesInput.value;
+}
 
 
 
