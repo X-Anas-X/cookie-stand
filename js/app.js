@@ -123,7 +123,7 @@ locationForm.addEventListener('submit', function (event){
   footer();
 });
 
-footer();
+
 
 
 
