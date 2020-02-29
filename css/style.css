@@ -2,3 +2,26 @@
     table tr td {
         border: 5px solid black;
     }
+    header{
+        background-color: pink;
+        
+       
+    }
+    h1 {
+        text-align: center;
+        font-size: 45px;
+        color: #4f4fe6;
+        padding-bottom: 35px;
+        padding-top: 25px;
+    }
+    body{
+        font-family: 'Oswald', ;
+    }
+    ul {
+        text-align: center;
+        padding: 20px;
+    }
+    ul #a-1 {
+        text-align: center;
+        padding-right: 211px;
+    }
