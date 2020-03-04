@@ -1,27 +1,363 @@
 
     table tr td {
         border: 5px solid black;
+        -webkit-animation:colorchange 20s infinite alternate;
+
+
     }
-    header{
-        background-color: pink;
+    
+    @-webkit-keyframes colorchange {
+      0% {
         
-       
+        color: blue;
+      }
+      
+      10% {
+        
+        color: #8e44ad;
+      }
+      
+      20% {
+        
+        color: #1abc9c;
+      }
+      
+      30% {
+        
+        color: #d35400;
+      }
+      
+      40% {
+        
+        color: blue;
+      }
+      
+      50% {
+        
+        color: #34495e;
+      }
+      
+      60% {
+        
+        color: blue;
+      }
+      
+      70% {
+        
+        color: #2980b9;
+      }
+      80% {
+     
+        color: #f1c40f;
+      }
+      
+      90% {
+     
+        color: #2980b9;
+      }
+      
+      100% {
+        
+        color: pink;
+      }
     }
+    
+
     h1 {
         text-align: center;
         font-size: 45px;
-        color: #4f4fe6;
-        padding-bottom: 35px;
-        padding-top: 25px;
+        
+        padding-bottom: 20px;
+        padding-top: 10px;
+        
+        font-size: 40px;
     }
+
     body{
-        font-family: 'Oswald', ;
-    }
+        font-family: 'Permanent Marker';
+        background: linear-gradient(to right, #f5af19, #f12711);
+}
+    
+    
+   
+    
     ul {
         text-align: center;
-        padding: 20px;
+        padding: 22px;
+        
     }
     ul #a-1 {
         text-align: center;
         padding-right: 211px;
     }
+    div#img-sushi img {
+        width: 364px;
+        float: right;
+    }
+    div#container {
+        text-align: -webkit-center;
+        padding-top: 145px;
+        background-image: url(https://images.stockfreeimages.com/1556/sfixl/15568666.jpg);
+        width: 596px;
+        margin-left: 29%;
+        margin-bottom: 70px;
+    margin-top: 120px;
+    }
+    img#img-2 {
+        width: 165px;
+        float: right;
+        margin-top: -151px;
+    }
+    img#img-3{
+        width: 165px;
+        float: left;
+        margin-top: -151px;
+    }
+    
+    
+
+
+input {
+    width: 100%;
+    background: none;
+    border: 1px solid #fff;
+    border-radius: 18px;
+    padding: 7px 30px;
+    box-sizing: border-box;
+    margin-bottom: 14px;
+    font-size: 16px;
+    color: #fff;
+}
+input[type="button"]{ background: #bac675; border: 0; cursor: pointer; color: #3e3d3d;}
+input[type="button"]:hover{ background: #a4b15c; transition: .6s;}
+
+::placeholder{color: #fff;}
+
+
+
+.forms {
+    width: 288px;
+    background: #3e3d3d;
+    padding: 34px;
+    box-sizing: border-box;
+    border-radius: 100px;
+    margin-left: 40%;
+}
+legend {
+    padding-bottom: 62px;
+    text-align: center;
+    color: #fff;
+}
+button#submit {
+    margin-left: 84px;
+    font-size: 16px;
+    border-radius: 8px;
+}
+header{
+    background-color: pink;
+    background-image: url(http://avante.biz/wp-content/uploads/Black-And-Orange-Backgrounds/Black-And-Orange-Backgrounds-001.jpg);
+
+    font-family: 'Permanent Marker';
+    -webkit-animation:colorchange 20s infinite alternate;
+
+
+}
+
+@-webkit-keyframes colorchange {
+  0% {
+    
+    color: blue;
+  }
+  
+  10% {
+    
+    color: #8e44ad;
+  }
+  
+  20% {
+    
+    color: #1abc9c;
+  }
+  
+  30% {
+    
+    color: #d35400;
+  }
+  
+  40% {
+    
+    color: blue;
+  }
+  
+  50% {
+    
+    color: #34495e;
+  }
+  
+  60% {
+    
+    color: blue;
+  }
+  
+  70% {
+    
+    color: #2980b9;
+  }
+  80% {
+ 
+    color: #f1c40f;
+  }
+  
+  90% {
+ 
+    color: #2980b9;
+  }
+  
+  100% {
+    
+    color: pink;
+  }
+}
+   
+
+
+
+footer p {
+    font-family: futura;
+    font-style: italic;
+
+    
+    width:100%;
+    
+    margin: 0 auto;
+    
+    
+    color:#313131;
+    font-weight: bold;
+  
+    -webkit-animation:colorchange 20s infinite alternate;
+    
+    
+  }
+
+  @-webkit-keyframes colorchange {
+    0% {
+      
+      color: blue;
+    }
+    
+    10% {
+      
+      color: #8e44ad;
+    }
+    
+    20% {
+      
+      color: #1abc9c;
+    }
+    
+    30% {
+      
+      color: #d35400;
+    }
+    
+    40% {
+      
+      color: blue;
+    }
+    
+    50% {
+      
+      color: #34495e;
+    }
+    
+    60% {
+      
+      color: blue;
+    }
+    
+    70% {
+      
+      color: #2980b9;
+    }
+    80% {
+   
+      color: #f1c40f;
+    }
+    
+    90% {
+   
+      color: #2980b9;
+    }
+    
+    100% {
+      
+      color: pink;
+    }
+  }
+
+  ul a{
+    -webkit-animation:colorchange 20s infinite alternate;
+
+
+}
+
+@-webkit-keyframes colorchange {
+  0% {
+    
+    color: blue;
+  }
+  
+  10% {
+    
+    color: #8e44ad;
+  }
+  
+  20% {
+    
+    color: #1abc9c;
+  }
+  
+  30% {
+    
+    color: #d35400;
+  }
+  
+  40% {
+    
+    color: green;
+  }
+  
+  50% {
+    
+    color: #34495e;
+  }
+  
+  60% {
+    
+    color: red;
+  }
+  
+  70% {
+    
+    color: #2980b9;
+  }
+  80% {
+ 
+    color: #f1c40f;
+  }
+  
+  90% {
+ 
+    color: #2980b9;
+  }
+  
+  100% {
+    
+    color: pink;
+  }
+}
+.map {
+  padding-left: 36px;
+  word-spacing: 19px;
+}

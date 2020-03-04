@@ -7,35 +7,50 @@
     
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <h1><img src="img/fish-logo.png"> Salmon Stores <img src="img/fish-logo.png"></h1>
         <ul>
-            <a id="a-1" href="home">Home</a>
-            <a id="a-2" href="sales">Sales</a>
+            <a id="a-1" href="sales.html">Home</a>
+            <a id="a-2" href="index.html">Sales</a>
         </ul>
+        <img id="img-2" src="http://clipart-library.com/img/1878958.png" alt="">
+        <img id="img-3" src="http://clipart-library.com/img/1878958.png" alt="">
     </header>
     <main>
     <div id="container"></div>
+    <!-- <div id="img-sushi">
+    <img src="https://previews.123rf.com/images/glowonconcept/glowonconcept1501/glowonconcept150100002/35032789-cute-salmon-sashimi-with-wasabi-cartoon-illustration.jpg">
+    </div> -->
+    <div class="map">
+    <iframe id="map-1" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d172139.4161662446!2d-122.48214752341369!3d47.61294318323425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5490102c93e83355%3A0x102565466944d59a!2sSeattle%2C%20WA%2C%20USA!5e0!3m2!1sen!2sjo!4v1583343308265!5m2!1sen!2sjo" width="300" height="250" frameborder="0" style="border:0; border-radius: 25%;" allowfullscreen=""></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d207446.248189387!2d139.6007809662382!3d35.66844146466068!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b857628235d%3A0xcdd8aef709a2b520!2sTokyo%2C%20Japan!5e0!3m2!1sen!2sjo!4v1583343799345!5m2!1sen!2sjo" width="300" height="250" frameborder="0" style="border:0; border-radius: 25%;" allowfullscreen=""></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d462562.8478599594!2d54.947546376673124!3d25.075707330407372!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43496ad9c645%3A0xbde66e5084295162!2sDubai%20-%20United%20Arab%20Emirates!5e0!3m2!1sen!2sjo!4v1583343932162!5m2!1sen!2sjo" width="300" height="250" frameborder="0" style="border:0; border-radius: 25%;" allowfullscreen=""></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83998.75769393811!2d2.2770197739280174!3d48.85895068137428!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e1f06e2b70f%3A0x40b82c3688c9460!2sParis%2C%20France!5e0!3m2!1sen!2sjo!4v1583344078535!5m2!1sen!2sjo" width="300" height="250" frameborder="0" style="border:0; border-radius: 25%;" allowfullscreen=""></iframe>
+</div>
     <form id="Form">
 <fieldset>
     <br>
+    <div class="forms">
     <legend>Add a new location:</legend>
     <label for="name">Location Name:  </label>
-    <input type="text" id="name" placeholder="Enter a store location"><br>
+    <input type="text" id="name"  placeholder="Enter a store location" required><br>
     <label for="minCust">Minimum Number of Customers Per Hour:  </label>
-    <input type="number" id="minCust" placeholder="Enter a number"><br>
+    <input type="number" id="minCust" placeholder="Enter a number" required><br>
     <label for="maxCust">Maximum Number of Customers Per Hour:  </label>
-    <input type="number" id="maxCust" placeholder="Enter a number"><br>
+    <input type="number" id="maxCust" placeholder="Enter a number" required><br>
     <label for="avgCoookies">The Average Number of Cookies:  </label>
-    <input type="number" id="avgCoookies" placeholder="Enter a number" step="0.01"><br>
+    <input type="number" id="avgCoookies" placeholder="Enter a number" step="0.01" required><br>
     <button type="submit" id="submit">Submit</button><br>
-
+</div>
 </fieldset>
 </form>
 </main>
+<footer> <p> Copy rights reserved to Salmon Cookies Shopes 2020 @Seattle </p>
+    <p>Contact us: +962-789733851</p>
+</footer>
 
     <script src="js/app.js"></script>
 </body>
